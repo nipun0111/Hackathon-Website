@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+}
+p1{
+    font-size: 18px;
+}
+body {
+    background-color: #f4f4f4;
+    /* background-image: url('Designer.png'); */
+    background-repeat: no-repeat;
+    background-size: fill;
+    color: rgb(240, 248, 255);
+    background: hsla(243, 52%, 44%, 1);
+    background: radial-gradient(circle, hsla(243, 52%, 44%, 1) 10%, hsla(241, 78%, 82%, 1) 46%, hsla(250, 54%, 19%, 1) 100%);
+    background: -moz-radial-gradient(circle, hsla(243, 52%, 44%, 1) 10%, hsla(241, 78%, 82%, 1) 46%, hsla(250, 54%, 19%, 1) 100%);
+    background: -webkit-radial-gradient(circle, hsla(243, 52%, 44%, 1) 10%, hsla(241, 78%, 82%, 1) 46%, hsla(250, 54%, 19%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3C36AB", endColorstr="#ADACF5", GradientType=1 );
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    background: hsla(243, 52%, 44%, 1);
+    background: radial-gradient(circle, hsla(243, 52%, 44%, 1) 10%, hsla(241, 78%, 82%, 1) 46%, hsla(250, 54%, 19%, 1) 100%);
+    background: -moz-radial-gradient(circle, hsla(243, 52%, 44%, 1) 10%, hsla(241, 78%, 82%, 1) 46%, hsla(250, 54%, 19%, 1) 100%);
+    background: -webkit-radial-gradient(circle, hsla(243, 52%, 44%, 1) 10%, hsla(241, 78%, 82%, 1) 46%, hsla(250, 54%, 19%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3C36AB", endColorstr="#ADACF5", GradientType=1 );
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    
+}
+
+.logo h1 {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero {
+    background-size: fill;
+    background-position: center;
+    margin-top: 50px;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-text {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #621ee9;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta-btn:hover {
+    background-color: #22005d;
+}
+input { 
+    text-align: center; 
+}
+.about-section, .schedule-section, .register-section {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.about-section h2, .schedule-section h2, .register-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    background: hsla(243, 52%, 44%, 1);
+    background: radial-gradient(circle, hsla(243, 52%, 44%, 1) 10%, hsla(241, 78%, 82%, 1) 46%, hsla(250, 54%, 19%, 1) 100%);
+    background: -moz-radial-gradient(circle, hsla(243, 52%, 44%, 1) 10%, hsla(241, 78%, 82%, 1) 46%, hsla(250, 54%, 19%, 1) 100%);
+    background: -webkit-radial-gradient(circle, hsla(243, 52%, 44%, 1) 10%, hsla(241, 78%, 82%, 1) 46%, hsla(250, 54%, 19%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3C36AB", endColorstr="#ADACF5", GradientType=1 );
+  
+}
+.about-us, .schedule, .contact {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.about-us h2, .schedule h2, .contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact label {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #621ee9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #22005d;
+}
+
+#registrationForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: hsla(243, 52%, 44%, 1);
+    background: hsla(243, 52%, 44%, 1);
+    background: linear-gradient(270deg, hsla(243, 52%, 44%, 1) 0%, hsla(250, 32%, 60%, 1) 100%); 
+    background: -moz-linear-gradient(270deg, hsla(243, 52%, 44%, 1) 0%, hsla(250, 32%, 60%, 1) 100%);   
+    background: -webkit-linear-gradient(270deg, hsla(243, 52%, 44%, 1) 0%, hsla(250, 32%, 60%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3C36AB", endColorstr="#8378BA", GradientType=1 );
+}
+
+#registrationForm label {
+    width: 100%;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #f9f9f9;
+}
+
+#registrationForm input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#registrationForm button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #621ee9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#registrationForm button:hover {
+    background-color: #22005d;
+}
+
+#successMessage {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #4CAF50;
+}
+.bg{
+    margin: 10px;
+}
